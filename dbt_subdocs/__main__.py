@@ -7,11 +7,11 @@ import typer
 from dbt.contracts.graph.manifest import WritableManifest
 from dbt.contracts.results import CatalogArtifact
 from rich.console import Console
-from dbt_subdocs.usecase.edit_catalog import edit_catalog
-from dbt_subdocs.usecase.edit_manifest import only_node_with_tags, remove_attribute
 
 from dbt_subdocs import version
 from dbt_subdocs.dtos import RemovableNodeType
+from dbt_subdocs.usecase.edit_catalog import edit_catalog
+from dbt_subdocs.usecase.edit_manifest import only_node_with_tags, remove_attribute
 
 
 class Color(str, Enum):
