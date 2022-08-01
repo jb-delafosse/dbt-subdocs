@@ -15,7 +15,7 @@ idna==3.3; python_version >= "3.7" and python_full_version < "3.0.0" or python_f
 importlib-metadata==4.10.1; python_version >= "3.7"
 isodate==0.6.1; python_version >= "3.7"
 jinja2==2.11.3; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
-jsonschema==3.1.1; python_version >= "3.7"
+jsonschema==4.9.0; python_version >= "3.7"
 leather==0.3.4; python_version >= "3.7"
 logbook==1.5.3; python_version >= "3.7"
 markupsafe==2.0.1; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
